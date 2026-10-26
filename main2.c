@@ -9,9 +9,7 @@ int main() {
                 TC[i] = 0;
 
             do {
-            
-
-                printf("digite se o cliente encontrou o que procurava. (1-sim / 2-nao):");
+            printf("digite se o cliente encontrou o que procurava. (1-sim / 2-nao):");
             scanf("%d", &resposta_pergunta1);
             matriz[i][TC[i]][0] = resposta_pergunta1;
             total_respostas++;
@@ -131,15 +129,10 @@ int main() {
 
                 printf("voce deseja imprimir mais um relatorio? 1-sim / 2-nao");
                 scanf("%d", &continuar);
-        
-
-
-
+    
     } while (continuar !=2 );
 
     return 0;
-
-
 }
 
 
